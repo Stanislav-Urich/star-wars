@@ -1,0 +1,40 @@
+
+.container__favorite {
+    position: relative;
+    display: flex;
+    width: 35px;    
+    height: 35px;
+    margin-left: auto ;
+    margin-bottom: 20px;
+    
+   
+   
+   
+   
+}
+
+
+.favorite__header {
+    
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: blue;
+    background-color: yellow;
+    border-radius: 50%;
+}

@@ -1,0 +1,53 @@
+.wrapper__input {
+
+    --border-radius: 3px;
+    --border: 3px;
+    --clear-width: 35px
+}
+
+
+
+.wrapper__input {
+    position: relative;
+    display: inline-flex;
+}
+
+.inputUi {
+    
+    padding-right: calc( var(--clear-width) + 5px ) ;
+    padding:  10px;
+    min-width: 250px;
+    
+    align-items: center;
+
+    border: var(--border) solid ;
+    border-color: rgb(144, 139, 139);
+    border-radius: var(--border-radius);
+
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0 0 5px wheat;
+}
+
+.inputUi:focus {
+    border-color: rgb(27, 27, 169) ;
+}
+
+
+.clear {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3px;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    object-position: center center;
+    transition: .5s;
+    
+}
+
+.clear__desabled {
+    opacity: .2 ;
+} 

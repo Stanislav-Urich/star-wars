@@ -1,0 +1,28 @@
+.wrapper {
+   --color-name: rgb(5, 243, 64);  
+   margin-top: 45px;
+}
+
+.person__name {
+    background-color: var(--color-name);
+    border-radius: 
+    var(--border-radius-small)
+    var(--border-radius-small)
+    var(--border-radius-small)
+    0;
+    font-size: 24px;
+    border: 3px solid var(--color-name);
+    padding: 5px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 7px solid var(--color-name);
+    padding: 20px;
+    border-radius: var(--border-radius-small);
+    
+    /* justify-content: center; */
+   
+}

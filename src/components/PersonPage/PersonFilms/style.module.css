@@ -1,0 +1,39 @@
+.wrapper {
+    margin-left: 25px;
+    margin-top: 15px;
+    
+}
+
+.list__container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.list__item {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+color: white;
+}
+
+.episode {
+    background-color: rgb(218, 34, 34);
+    padding: 3px;
+    border-radius: 3px;
+
+}
+
+.colon {
+  
+    width: 20px;
+    font-weight: 900;
+    text-align: center;
+   
+
+}
+
+.title {
+    text-shadow: 0 0 5px rgb(255, 5, 5);
+}

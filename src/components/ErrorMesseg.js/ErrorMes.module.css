@@ -1,0 +1,17 @@
+.error_mes {
+    color: rgb(245, 241, 6);
+    margin-top: 50px;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 0 0 21px var(--color-wite) ;
+}
+
+
+.video {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    
+
+}

@@ -1,0 +1,104 @@
+:root {
+
+    --color-dark-grey: #10100e;
+    --color-black: #000;
+    --color-wite: #fff;
+
+
+    --border-radius-small: 3px;
+    --width-max: 1200px;
+    --spacing-medium: 20px;
+
+    --family: sans-serif ;
+
+    --font-size-header: 26px;
+
+    /* Т-Е-М-Ы */
+
+    --theme-light-header: #082fddeb;
+    --theme-dark-header: rgb(206, 40, 2);
+    --theme-neutral-header: #cccc46; 
+
+    --theme-default-header: var(--theme-neutral-header); 
+    --transition: .4s;
+
+    --theme-light-bgimg: linear-gradient(353deg, rgba(210,214,22,1) 8%, rgba(45,210,253,1) 70%); 
+    --theme-dark-bgimg:  linear-gradient(
+        135deg,
+        hsl(357deg 100% 11%) 0%,
+        hsl(358deg 100% 13%) 35%,
+        hsl(359deg 100% 15%) 47%,
+        hsl(360deg 100% 17%) 53%,
+        hsl(1deg 91% 17%) 57%,
+        hsl(359deg 72% 14%) 65%,
+        hsl(350deg 57% 10%) 79%,
+        hsl(293deg 62% 5%) 100%
+      );
+    --theme-neutral-bgimg: url(./static/home.jpg);
+    --theme-default-bgimg: var(--theme-neutral-bgimg)
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark-grey);
+    font-family: var(--family) ;
+    font-size: 16px;
+    background-image: var(--theme-default-bgimg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left; 
+    background-attachment: fixed;
+    color: var(--theme-default-header);
+}   
+
+
+img {
+    display: block;
+}
+
+
+.header_text {
+   
+    text-shadow: 0 0 3px var(--color-black);
+    font-size: var(--font-size-header) ;
+    line-height: 1.7;
+    transition: color var(--transition);
+}
+
+
+
+/* .dark {
+    background-color: rgb(144, 28, 28);
+    color: #000;
+}
+
+.light {
+    background-color: #dfe2df;
+    color: rebeccapurple;
+}
+
+
+.neutral {
+    background-color: aqua;
+    color: green;
+} */
+
+
+/*      SCROOL     */
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ab383a;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(214, 246, 7);
+}

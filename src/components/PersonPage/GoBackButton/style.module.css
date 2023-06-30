@@ -1,0 +1,19 @@
+.link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: 500;
+    color: yellow;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.link__icon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center center;
+    margin-right: 10px;
+    background-color: yellow;
+
+}
